@@ -7,13 +7,30 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 html{
 
 	font-size: 10px;
 }
 
-body{
-	font-family: 'Open Sans', sans-serif;
+body {
+    background-image: linear-gradient(135deg, #8ac1ef, #ca6ce9, #8ac1ee, #e93356);
+    background-size: 400% 400%;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient{
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
 }
 .center__popup {
     width: 400px;
